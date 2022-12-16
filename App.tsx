@@ -20,6 +20,7 @@ export default function App() {
           style={styles.input}
           placeholder="Username"
           onChange={(e) => setUsername(e.nativeEvent.text)}
+          testID="usernameInput"
         />
       </View>
       <View style={styles.inputGroup}>
@@ -29,6 +30,7 @@ export default function App() {
           placeholder="Password"
           secureTextEntry
           onChange={(e) => setPassword(e.nativeEvent.text)}
+          testID="passwordInput"
         />
       </View>
       <TouchableOpacity
@@ -40,6 +42,7 @@ export default function App() {
             setValid(false);
           }
         }}
+        testID="signInButton"
       >
         <Text style={styles.buttonText}>Sign in</Text>
       </TouchableOpacity>
