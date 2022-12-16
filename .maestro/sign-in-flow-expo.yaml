@@ -1,0 +1,19 @@
+appId: com.example.app
+---
+# needed to open app in expo
+- openLink: exp://127.0.0.1:19000
+# tap on username
+- tapOn:
+    text: "Username"
+    index: 1
+# input username
+- inputRandomPersonName
+# tap on password
+- tapOn:
+    text: "Password"
+    index: 1
+# input password
+- inputRandomText
+# tap on sign in
+- tapOn: "Sign in"
+- assertVisible: "Sign in successfully"
