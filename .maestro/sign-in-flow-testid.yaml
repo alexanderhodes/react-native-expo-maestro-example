@@ -4,20 +4,19 @@ appId: com.example.app
     appId: com.example.app
 # tap on username
 - tapOn:
-    text: "Username"
-    index: 1
+    id: "usernameInput"
 # input username
 - inputRandomPersonName
 # hides keyboard
 - hideKeyboard
 # tap on password
 - tapOn:
-    text: "Password"
-    index: 1
+    id: "passwordInput"
 # input password
 - inputRandomText
 # hides keyboard
 - hideKeyboard
 # tap on sign in
-- tapOn: "Sign in"
+- tapOn:
+    id: "signInButton"
 - assertVisible: "Sign in successfully"
