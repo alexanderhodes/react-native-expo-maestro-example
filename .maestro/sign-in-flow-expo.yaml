@@ -8,12 +8,16 @@ appId: com.example.app
     index: 1
 # input username
 - inputRandomPersonName
+# hides keyboard
+- hideKeyboard
 # tap on password
 - tapOn:
     text: "Password"
     index: 1
 # input password
 - inputRandomText
+# hides keyboard
+- hideKeyboard
 # tap on sign in
 - tapOn: "Sign in"
 - assertVisible: "Sign in successfully"

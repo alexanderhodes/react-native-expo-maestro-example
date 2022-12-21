@@ -7,11 +7,15 @@ appId: com.example.app
     id: "usernameInput"
 # input username
 - inputRandomPersonName
+# hides keyboard
+- hideKeyboard
 # tap on password
 - tapOn:
     id: "passwordInput"
 # input password
 - inputRandomText
+# hides keyboard
+- hideKeyboard
 # tap on sign in
 - tapOn:
     id: "signInButton"
