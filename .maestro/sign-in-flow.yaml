@@ -2,7 +2,7 @@ appId: com.example.app
 ---
 - launchApp:
     appId: com.example.app
-- tap on username
+# tap on username
 - tapOn:
     text: "Username"
     index: 1
