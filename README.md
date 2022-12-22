@@ -1,4 +1,4 @@
-# Example for using maestro with React Native
+# Example for using maestro with React Native (Expo)
 
 In this repository we want to show how to use Maestro with React Native apps built with Expo. You can read the full article on our [blog at dev.to](). If you want check out maestro with a React Native CLI app, you can have a look at [this repository](https://github.com/alexanderhodes/react-native-cli-maestro-example), because there are some differences when launching the app with Expo.
 
