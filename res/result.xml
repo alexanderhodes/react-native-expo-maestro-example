@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="iPhone 14 Plus - iOS 16.1 - E7F8022E-939F-4165-B887-F342740BFCE6" tests="1" failures="0">
+    <testcase id="sign-in-flow-testid" name="sign-in-flow-testid"/>
+  </testsuite>
+</testsuites>
