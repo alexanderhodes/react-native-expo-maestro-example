@@ -1,0 +1,23 @@
+appId: com.example.app
+---
+- launchApp:
+    appId: com.example.app
+# tap on username
+- tapOn:
+    text: "Username"
+    index: 1
+# enter username
+- inputRandomPersonName
+# hide keyboard
+- hideKeyboard
+# tap on password
+- tapOn:
+    text: "Password"
+    index: 1
+# enter password
+- inputRandomText
+# hide keyboard
+- hideKeyboard
+# tap on sign in
+- tapOn: "Sign in"
+- assertVisible: "Sign in successfully"

@@ -1,0 +1,22 @@
+appId: com.example.app
+---
+- launchApp:
+    appId: com.example.app
+# tap on username
+- tapOn:
+    id: "usernameInput"
+# enter username
+- inputText: ${USERNAME}
+# hides keyboard
+- hideKeyboard
+# tap on password
+- tapOn:
+    id: "passwordInput"
+# enter password
+- inputText: ${PASSWORD}
+# hides keyboard
+- hideKeyboard
+# tap on sign in
+- tapOn:
+    id: "signInButton"
+- assertVisible: "Sign in successfully"
