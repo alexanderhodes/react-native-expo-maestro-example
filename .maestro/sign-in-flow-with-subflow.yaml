@@ -1,0 +1,20 @@
+appId: com.example.app
+---
+# needed to open app in expo
+- openLink: exp://127.0.0.1:19000
+# enter username
+- runFlow:
+    file: subflows/subflow-enter-text.yaml
+    env:
+      TEXT_INPUT_ID: usernameInput
+      TEXT: "Test User"
+# enter password
+- runFlow:
+    file: subflows/subflow-enter-text.yaml
+    env:
+      TEXT_INPUT_ID: passwordInput
+      TEXT: Test123456
+# tap on sign in
+- tapOn:
+    id: "signInButton"
+- assertVisible: "Sign in successfully"

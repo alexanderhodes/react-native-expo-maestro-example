@@ -1,7 +1,7 @@
 appId: com.example.app
 ---
-- launchApp:
-    appId: com.example.app
+# needed to open app in expo
+- openLink: exp://127.0.0.1:19000
 # tap on username
 - tapOn:
     id: "usernameInput"

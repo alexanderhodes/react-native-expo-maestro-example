@@ -4,20 +4,19 @@ appId: com.example.app
 - openLink: exp://127.0.0.1:19000
 # tap on username
 - tapOn:
-    text: "Username"
-    index: 1
+    id: "usernameInput"
 # enter username
-- inputRandomPersonName
-# hide keyboard
+- inputText: ${USERNAME}
+# hides keyboard
 - hideKeyboard
 # tap on password
 - tapOn:
-    text: "Password"
-    index: 1
+    id: "passwordInput"
 # enter password
-- inputRandomText
-# hide keyboard
+- inputText: ${PASSWORD}
+# hides keyboard
 - hideKeyboard
 # tap on sign in
-- tapOn: "Sign in"
+- tapOn:
+    id: "signInButton"
 - assertVisible: "Sign in successfully"

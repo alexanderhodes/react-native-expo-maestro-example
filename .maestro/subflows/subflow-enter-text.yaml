@@ -1,0 +1,10 @@
+appId: com.example.app
+
+---
+# tap on text input
+- tapOn:
+    id: ${TEXT_INPUT_ID}
+# enter text
+- inputText: ${TEXT}
+# hide keyboard
+- hideKeyboard
