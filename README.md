@@ -4,6 +4,9 @@ In this repository we want to show how to use Maestro with React Native apps bui
 
 The application is a simple sign in interface where username and password can be entered. After clicking the sign in button a success message will be displayed below the button.
 
+![Screenshot Sign In](https://raw.githubusercontent.com/alexanderhodes/react-native-expo-maestro-example/main/res/example-screenshot.png)
+![Screenshot Sign In Success](https://raw.githubusercontent.com/alexanderhodes/react-native-expo-maestro-example/main/res/example-screenshot-success.png)
+
 ## Running the app
 
 Preparing the app and installing the dependencies.
@@ -33,6 +36,8 @@ The tests located in `.expo-maestro` directory are developed for running locally
 You can run the tests as well in the cloud. For running the tests in the cloud, you need to use the tests from `.maestro` directory. Here the command for starting the app is different compared to the tests in the `.expo-maestro` directory.
 
 For creating new workflows you can check out the [Maestro docs](https://maestro.mobile.dev) and [Maestro studio](https://maestro.mobile.dev/getting-started/maestro-studio).
+
+![Maestro studio](https://raw.githubusercontent.com/alexanderhodes/react-native-expo-maestro-example/main/res/maestro-studio-2.png)
 
 ### Install maestro
 
@@ -100,6 +105,8 @@ In addition to running tests, you can record them for getting a screen record.
 # start video recording
 $ maestro record .expo-maestro/sign-in-flow-testid.yaml
 ```
+
+![Maestro record](https://raw.githubusercontent.com/alexanderhodes/react-native-expo-maestro-example/main/res/maestro-record.png)
 
 ## Tips and tricks
 
