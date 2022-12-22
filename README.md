@@ -4,8 +4,10 @@ In this repository we want to show how to use Maestro with React Native apps bui
 
 The application is a simple sign in interface where username and password can be entered. After clicking the sign in button a success message will be displayed below the button.
 
-![Screenshot Sign In](https://raw.githubusercontent.com/alexanderhodes/react-native-expo-maestro-example/main/res/example-screenshot.png)
-![Screenshot Sign In Success](https://raw.githubusercontent.com/alexanderhodes/react-native-expo-maestro-example/main/res/example-screenshot-success.png)
+<div style="display:flex;flex-direction:row">
+<img src="https://raw.githubusercontent.com/alexanderhodes/react-native-expo-maestro-example/main/res/example-screenshot.png" alt="Screenshot Sign In" height="400" width="auto" style="marginRight: 16px">
+<img src="https://raw.githubusercontent.com/alexanderhodes/react-native-expo-maestro-example/main/res/example-success-screenshot.png" alt="Screenshot Sign In Success" height="400" width="auto">
+</div>
 
 ## Running the app
 
