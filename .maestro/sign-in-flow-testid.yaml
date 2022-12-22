@@ -5,16 +5,16 @@ appId: com.example.app
 # tap on username
 - tapOn:
     id: "usernameInput"
-# input username
+# enter username
 - inputRandomPersonName
-# hides keyboard
+# hide keyboard
 - hideKeyboard
 # tap on password
 - tapOn:
     id: "passwordInput"
-# input password
+# enter password
 - inputRandomText
-# hides keyboard
+# hide keyboard
 - hideKeyboard
 # tap on sign in
 - tapOn:

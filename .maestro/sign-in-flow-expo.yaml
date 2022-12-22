@@ -6,17 +6,17 @@ appId: com.example.app
 - tapOn:
     text: "Username"
     index: 1
-# input username
+# enter username
 - inputRandomPersonName
-# hides keyboard
+# hide keyboard
 - hideKeyboard
 # tap on password
 - tapOn:
     text: "Password"
     index: 1
-# input password
+# enter password
 - inputRandomText
-# hides keyboard
+# hide keyboard
 - hideKeyboard
 # tap on sign in
 - tapOn: "Sign in"
